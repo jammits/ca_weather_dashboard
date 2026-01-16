@@ -17,7 +17,7 @@ You will use the OpenWeather "5 Day / 3 Hour Forecast" endpoint:
 
 https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
 
-The forecast endpoint requires latitude and longitude.  
+The forecast endpoint requires latitude and longitude.
 This means you must first turn a city name into coordinates using a Geocoding API, then use those coordinates to get weather data.
 
 Note: After registering for a new API key, you may need to wait up to 2 hours before it becomes active.
@@ -29,8 +29,8 @@ https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys
 
 ## USER STORY
 
-AS A traveler  
-I WANT to see the weather outlook for multiple cities  
+AS A traveler
+I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
 
 ---
@@ -39,16 +39,16 @@ SO THAT I can plan a trip accordingly
 
 GIVEN a weather dashboard with form inputs
 
-WHEN I search for a city  
+WHEN I search for a city
 THEN I am presented with current and future conditions for that city and that city is added to the search history
 
-WHEN I view current weather conditions for that city  
+WHEN I view current weather conditions for that city
 THEN I see the city name, date, weather icon, temperature, humidity, and wind speed
 
-WHEN I view future weather conditions for that city  
+WHEN I view future weather conditions for that city
 THEN I see a 5-day forecast including date, icon, temperature, wind speed, and humidity
 
-WHEN I click on a city in the search history  
+WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
 ---
@@ -70,7 +70,7 @@ THEN I am again presented with current and future conditions for that city
 
 The weather dashboard contains a search bar, a list of recent cities, and two sections displaying Atlanta’s current weather and a 5-day forecast.
 
-![Weather App Demo](./Assets/06-server-side-apis-homework-demo.png)
+![Weather App Demo](./Assets/images/06-server-side-apis-homework-demo.png)
 
 ---
 
